@@ -1,0 +1,211 @@
+.topnav {
+    margin-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    font-family: gilroy-bold;
+    font-size: 18px;
+}
+
+.topnav a {
+    text-decoration: none;
+    color: #828282;
+}
+
+.topnav a:hover{
+    color: black;
+}
+
+.topnav li {
+    list-style-type: none;
+}
+
+header {
+    width: 940px;
+    border-bottom: 1px #828282 solid;
+    margin: 0 auto;
+}
+
+.main-info {
+    display: flex;
+    justify-content: space-between;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.name {
+    font-size: 47px;
+    font-family: gilroy-bold;
+}
+
+.ux {
+    position: relative;
+    top: 95px;
+    font-family: Gilroy-medium;
+    font-size: 18px;
+}
+
+.lang {
+    transform: rotate(-90deg);
+    height: fit-content;
+    position: relative;
+    top: 115px;
+    left: 18px;
+}
+
+button {
+    padding: 0;
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    color: #828282;
+}
+
+button:hover {
+    color: black;
+}
+
+body #ru {
+    padding-right: 3px;
+    border-right: 1px #000 solid;
+}
+
+
+.photo-png {
+    margin: 0 auto;
+    position: relative;
+    height: 387px;
+    width: 943px;
+}
+
+
+.resume {
+    position: relative;
+    top: 104px;
+    font-family: gilroy-bold;
+    text-align: center;
+}
+
+.res {
+    margin-top: 120px;
+    margin-bottom: 18px;
+}
+
+.main-p {
+    font-size: 34px;
+}
+
+.sekond-p {
+    font-size: 18px;
+}
+
+.div-skills {
+    position: relative;
+    top: 198px;
+    font-family: gilroy-bold;
+    text-align: center;
+}
+
+.logo {
+    width: 728px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 250px;
+    text-align: center;
+    font-family: gilroy-bold;
+    font-size: 14px;
+}
+
+.rating {
+    width: 160px;
+    margin: 0 auto;
+}
+
+.rating span {
+    position: relative;
+    top: 41px;
+    right: 5px;
+    padding: 0px;
+    font-size: 26px;
+    margin: 0 3px;
+    line-height: 1;
+    color: #E5E5E5;
+}
+
+.rating > span:before {
+    content: '★';
+}
+
+.rating > span.active {
+    color: #000;
+}
+
+.portfolio {
+    position: relative;
+    top: 440px;
+    font-family: gilroy-bold;
+    text-align: center;
+}
+
+.design-png {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    height: 510px;
+    width: 943px;
+    margin-top: 99px;
+    margin-bottom: 44px;
+}
+
+.link {
+    font-size: gilroy-bold;
+    font-size: 18px;
+    text-align: center;
+    color: #000;
+}
+
+.contacts {
+    position: relative;
+    top: 600px;
+    font-family: gilroy-bold;
+    text-align: center;
+}
+
+.contacts-button {
+    width: 181px;
+    height: 42px;
+    position: relative;
+    top: 30px;
+    font-family: gilroy-bold;
+    font-size: 18px;
+    color: white;
+    background-color: #000;
+    border-color: #000 solid;
+    border-width: 180px;
+    border-radius: 40px;
+}
+
+.contacts-button:hover {
+    color: white;
+}
+
+.contacts-logo {
+    width: 728px;
+    margin: 0 auto;
+    position: relative;
+    top: 750px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contacts-text {
+    position: relative;
+    margin-top: 800px;
+    margin-bottom: 250px;
+    font-family: gilroy-bold;
+    font-size: 14px;
+    color: #828282;
+    text-align: center;
+}
