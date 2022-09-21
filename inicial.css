@@ -1,4 +1,4 @@
-.topnav {
+.top-nav {
     margin-right: 30px;
     display: flex;
     justify-content: space-between;
@@ -6,16 +6,16 @@
     font-size: 18px;
 }
 
-.topnav a {
+.top-nav a {
     text-decoration: none;
     color: #828282;
 }
 
-.topnav a:hover{
+.top-nav a:hover{
     color: black;
 }
 
-.topnav li {
+.top-nav li {
     list-style-type: none;
 }
 
@@ -37,14 +37,14 @@ header {
     font-family: gilroy-bold;
 }
 
-.ux {
+.about-author {
     position: relative;
     top: 95px;
     font-family: Gilroy-medium;
     font-size: 18px;
 }
 
-.lang {
+.lang-switcher {
     transform: rotate(-90deg);
     height: fit-content;
     position: relative;
@@ -65,13 +65,13 @@ button:hover {
     color: black;
 }
 
-body #ru {
+.lang-ru {
     padding-right: 3px;
     border-right: 1px #000 solid;
 }
 
 
-.photo-png {
+.author-photo {
     margin: 0 auto;
     position: relative;
     height: 387px;
@@ -79,34 +79,42 @@ body #ru {
 }
 
 
-.resume {
+.cv-wrapper {
     position: relative;
     top: 104px;
     font-family: gilroy-bold;
     text-align: center;
 }
 
-.res {
+.cv {
     margin-top: 120px;
     margin-bottom: 18px;
 }
 
-.main-p {
+.cv-title {
     font-size: 34px;
 }
 
-.sekond-p {
+.cv-text {
     font-size: 18px;
 }
 
-.div-skills {
+.skills {
     position: relative;
     top: 198px;
     font-family: gilroy-bold;
     text-align: center;
 }
 
-.logo {
+.skills-title {
+    font-size: 34px;
+}
+
+.skills-text {
+    font-size: 18px;
+}
+
+.ps-logo {
     width: 728px;
     margin: 0 auto;
     display: flex;
@@ -149,6 +157,10 @@ body #ru {
     text-align: center;
 }
 
+.portfolio-title {
+    font-size: 34px;
+}
+
 .design-png {
     display: flex;
     justify-content: center;
@@ -171,6 +183,14 @@ body #ru {
     top: 600px;
     font-family: gilroy-bold;
     text-align: center;
+}
+
+.contacts-title {
+    font-size: 34px;
+}
+
+.contacts-text {
+    font-size: 18px;
 }
 
 .contacts-button {
