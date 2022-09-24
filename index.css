@@ -1,3 +1,18 @@
+@font-face {
+font-family: "Gilroy-Bold";  
+src: url("../portfolio.github.io/Gilroy-Bold.ttf") format("truetype"); 
+font-style: normal; 
+font-weight: normal;
+ }
+
+@font-face {
+font-family: "Gilroy-Medium";  
+src: url("../portfolio.github.io/Gilroy-Medium.ttf") format("truetype"); 
+font-style: normal; 
+font-weight: normal;
+ }
+
+
 .top-nav {
     margin-right: 30px;
     display: flex;
