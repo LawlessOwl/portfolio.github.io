@@ -233,12 +233,12 @@ button:hover {
     width: 728px;
     margin: 0 auto;
     position: relative;
-    top: 750px;
+    top: 250px;
     display: flex;
     justify-content: space-evenly;
 }
 
-.contacts-text {
+.contacts-text-logo {
     position: relative;
     margin-top: 250px;
     margin-bottom: 250px;
