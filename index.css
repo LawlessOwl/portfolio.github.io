@@ -215,7 +215,7 @@ button:hover {
     width: 181px;
     height: 42px;
     position: relative;
-    top: 160px;
+    top: 25px;
     font-family: Gilroy-Bold;
     font-size: 18px;
     color: white;
@@ -233,7 +233,7 @@ button:hover {
     width: 728px;
     margin: 0 auto;
     position: relative;
-    top: 600px;
+    top: 750px;
     display: flex;
     justify-content: space-evenly;
 }
