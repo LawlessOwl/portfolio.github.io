@@ -1,17 +1,16 @@
 @font-face {
-font-family: "Gilroy-Bold";  
-src: url("../portfolio.github.io/Gilroy-Bold.ttf") format("truetype"); 
-font-style: normal; 
-font-weight: normal;
- }
+    font-family: "Gilroy-Bold";  
+    src: url("../portfolio.github.io/Gilroy-Bold.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal;
+}
 
 @font-face {
-font-family: "Gilroy-Medium";  
-src: url("../portfolio.github.io/Gilroy-Medium.ttf") format("truetype"); 
-font-style: normal; 
-font-weight: normal;
- }
-
+    font-family: "Gilroy-Medium";  
+    src: url("../portfolio.github.io/Gilroy-Medium.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal;
+}
 
 .top-nav {
     margin-right: 30px;
@@ -87,10 +86,20 @@ button:hover {
 
 
 .author-photo {
-    margin: 0 auto;
-    position: relative;
+    display: flex;
+    justify-content: center;
     height: 387px;
     width: 943px;
+    margin: 0 auto;
+}
+
+.author-photo img {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    height: 510px;
+    width: 943px;
+    object-fit: cover;
 }
 
 
@@ -246,4 +255,76 @@ button:hover {
     font-size: 14px;
     color: #828282;
     text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        display: none;
+    }
+
+    .lang-switcher {
+        display: none;
+    }
+}
+
+
+@media all and (max-width: 600px) {
+    body {
+        width: 375px;
+    }
+    
+    .main-info {
+        position: relative;
+        left: 20px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        height: 300px;
+    }
+
+    .about-author {
+        position: relative;
+        top: 5px
+    }
+
+    .author-photo {
+        margin: 0 auto;
+        width: 316px;
+        height: 478px;
+    }
+
+    .ps-logo {
+        display: flex;
+        flex-direction: column;
+        width: 378px;
+    }
+
+    .rating {
+        position: relative;
+        bottom: 50px;
+    }
+
+    .design-png {
+        height: 171px;
+        width: 316px;
+    }
+
+    .contacts-button {
+        width: 316px;
+    }
+
+    .contacts-logo {
+        width: 375px;
+        position: relative;
+        top: 700px;
+    }
+
+    .contacts-text-logo {
+        margin-top: 750px;
+    }
+
+    body {
+        margin: 0;
+    }
 }
