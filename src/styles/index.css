@@ -33,10 +33,14 @@
     list-style-type: none;
 }
 
-header {
+.hat {
     width: 940px;
     border-bottom: 1px #828282 solid;
     margin: 0 auto;
+}
+
+.menu {
+    display: none;
 }
 
 .main-info {
@@ -152,6 +156,10 @@ button:hover {
     font-size: 14px;
 }
 
+.figma {
+    margin-bottom: 30px;
+}
+
 .rating {
     margin: 0 auto;
 }
@@ -238,6 +246,7 @@ button:hover {
 }
 
 .contacts-logo {
+    list-style: none;
     width: 728px;
     margin: 0 auto;
     position: relative;
@@ -257,7 +266,7 @@ button:hover {
 }
 
 @media screen and (max-width: 600px) {
-    header {
+    .hat {
         display: none;
     }
 
@@ -268,8 +277,16 @@ button:hover {
 
 
 @media all and (max-width: 600px) {
-    body {
-        width: 375px;
+    .name {
+        margin-left: 48px;
+    }
+
+    .adobe-program:not(:last-child) {
+        margin-bottom: 100px;
+    }
+
+    .rating {
+        margin-top: 40px;
     }
     
     .main-info {
@@ -283,6 +300,7 @@ button:hover {
     }
 
     .about-author {
+        margin-left: 48px;
         position: relative;
         top: 5px
     }
@@ -325,5 +343,20 @@ button:hover {
 
     body {
         margin: 0;
+    }
+
+    .menu { 
+        list-style: none;
+        display: contents;
+        width: 10px;
+    }
+
+    .border {
+        border-top: 4px #000 solid;
+        margin-bottom: 6px;
+        width: 40px;
+        position: relative;
+        bottom: 225px;
+        left: 330px;
     }
 }
